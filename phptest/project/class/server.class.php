@@ -5,6 +5,8 @@ class server
 	private $name;
 	private $id;
 	private $ressources;
+	private $user_limit;
+	private $actual_amount;
 
 	function setName($name)
 	{
@@ -48,6 +50,26 @@ class server
 	function getRessources()
 	{
 		return ($this->ressources);
+	}
+
+	function setLimit($limit)
+	{
+		$this->user_limit = $limit;
+	}
+
+	function getLimit()
+	{
+		return ($this->user_limit);
+	}
+
+	function setActual($actual)
+	{
+		$this->actual_amount = $actual;
+	}
+
+	function getActual()
+	{
+		return ($this->actual_amount);
 	}
 }
 
