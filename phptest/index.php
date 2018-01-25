@@ -3,6 +3,7 @@
 require_once ("project/class/user.class.php");
 require_once ("project/class/ressource.class.php");
 require_once ("project/class/server.class.php");
+require_once ("project/class/cache.server.class.php");
 include ("project/config/config.php");
 
 
